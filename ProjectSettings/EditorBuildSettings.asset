@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Main Menu.unity
+    guid: b16b9aaceb1bf2249824ce5709b7614b
+  - enabled: 0
+    path: Assets/Scenes/Vuforia.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/Measure Distances.unity
+    guid: 1a67b1477f410e644bf15a8dcf7a8fcf
+  - enabled: 0
+    path: Assets/Scenes/Cloud Anchors.unity
+    guid: 3b619ade1c8de1e4fb6cfdcdcf0bb2a3
+  - enabled: 0
+    path: Assets/Scenes/Augmented Images.unity
+    guid: f1db6b8b3310da245a42a937c8ef7f1f
+  - enabled: 0
+    path: Assets/ManoMotion ARFoundation/Scenes/ManoMotionSDKProFeatures.unity
+    guid: 2e8ecbb9ea2e340009ac8d7dd6fbd854
+  - enabled: 1
+    path: Assets/Scenes/Fruit Ninja.unity
+    guid: b5e7a3e45af1d3540b2d2f9dc8a18da6
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 68901a17c455af04dafb52ba0262e5a2, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 57bc1532b7140a14e9cf5c7c81c90f58, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d0d205c746db3704d9fda8be6ad88490, type: 2}
